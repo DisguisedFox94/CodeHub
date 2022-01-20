@@ -141,7 +141,7 @@ function DarkLib:Window()
 	MainFrame.Position = UDim2.new(0.330445558, 0, 0.330043852, 0)
 	MainFrame.Size = UDim2.new(0, 547, 0, 341)
 
-	MainFrameUICorner.CornerRadius = UDim.new(0, 11)
+	MainFrameUICorner.CornerRadius = UDim.new(0, 5)
 	MainFrameUICorner.Name = "MainFrameUICorner"
 	MainFrameUICorner.Parent = MainFrame
 
