@@ -141,7 +141,7 @@ function DarkLib:Window()
 	MainFrame.Position = UDim2.new(0.330445558, 0, 0.330043852, 0)
 	MainFrame.Size = UDim2.new(0, 547, 0, 341)
 
-	MainFrameUICorner.CornerRadius = UDim.new(0, 5)
+	MainFrameUICorner.CornerRadius = UDim.new(0, 8)
 	MainFrameUICorner.Name = "MainFrameUICorner"
 	MainFrameUICorner.Parent = MainFrame
 
@@ -165,7 +165,7 @@ function DarkLib:Window()
 	TabHolderFrame.Position = UDim2.new(0.0251439176, 0, 0.174975574, 0)
 	TabHolderFrame.Size = UDim2.new(0, 519, 0, 31)
 
-	TabHolderFrameUICorner.CornerRadius = UDim.new(0, 11)
+	TabHolderFrameUICorner.CornerRadius = UDim.new(0, 8)
 	TabHolderFrameUICorner.Name = "TabHolderFrameUICorner"
 	TabHolderFrameUICorner.Parent = TabHolderFrame
 
