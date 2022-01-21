@@ -321,7 +321,7 @@ function DarkLib:Window()
 		Container.Size = UDim2.new(0, 519, 0, 227)
 		Container.Visible = false
 
-		ContainerUICorner.CornerRadius = UDim.new(0, 11)
+		ContainerUICorner.CornerRadius = UDim.new(0, 8)
 		ContainerUICorner.Name = "ContainerUICorner"
 		ContainerUICorner.Parent = Container
 
