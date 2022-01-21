@@ -125,6 +125,7 @@ function DarkLib:Window()
 	local MainFrame = Instance.new("Frame")
 	local MainFrameUICorner = Instance.new("UICorner")
 	local Title = Instance.new("TextLabel")
+	local Logo = Instance.new("ImageLabel")
 	local Containers = Instance.new("Folder")
 	local DraggableFrame = Instance.new("Frame")
 	local TabHolderFrame = Instance.new("Frame")
@@ -138,13 +139,17 @@ function DarkLib:Window()
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = DarkHubLib
 	MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-	MainFrame.Position = UDim2.new(0.330445558, 0, 0.330043852, 0)
-	MainFrame.Size = UDim2.new(0, 547, 0, 341)
+	MainFrame.Position = UDim2.new(0.186, 0, 0.236, 0)
+	MainFrame.Size = UDim2.new(0, 556, 0, 294)
 
 	MainFrameUICorner.CornerRadius = UDim.new(0, 8)
 	MainFrameUICorner.Name = "MainFrameUICorner"
 	MainFrameUICorner.Parent = MainFrame
-
+	
+	Logo.Image = "rbxassetid://8209210271"
+	Logo.Size = Udim2.new(0, 142, 0, 116)
+	Logo.Position = Udim2.new(-0.063, 0, -0.088, 0)
+	
 	Title.Name = "Title"
 	Title.Parent = MainFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
