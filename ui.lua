@@ -138,13 +138,13 @@ function DarkLib:Window()
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = DarkHubLib
 	MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-	MainFrame.Position = UDim2.new(0.186, 0, 0.236, 0)
-	MainFrame.Size = UDim2.new(0, 556, 0, 294)
+	MainFrame.Position = UDim2.new(0.330445558, 0, 0.330043852, 0)
+	MainFrame.Size = UDim2.new(0, 547, 0, 341)
 
 	MainFrameUICorner.CornerRadius = UDim.new(0, 8)
 	MainFrameUICorner.Name = "MainFrameUICorner"
 	MainFrameUICorner.Parent = MainFrame
-	
+
 	Title.Name = "Title"
 	Title.Parent = MainFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -161,7 +161,7 @@ function DarkLib:Window()
 
 	TabHolderFrame.Name = "TabHolderFrame"
 	TabHolderFrame.Parent = MainFrame
-	TabHolderFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+	TabHolderFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	TabHolderFrame.Position = UDim2.new(0.0251439176, 0, 0.174975574, 0)
 	TabHolderFrame.Size = UDim2.new(0, 519, 0, 31)
 
@@ -395,7 +395,7 @@ function DarkLib:Window()
 
 			Button.Name = "Button"
 			Button.Parent = ItemHolder
-			Button.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+			Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 			Button.Position = UDim2.new(0, 0, 0.174999997, 0)
 			Button.Size = UDim2.new(0, 491, 0, 29)
 			Button.AutoButtonColor = false
@@ -461,7 +461,7 @@ function DarkLib:Window()
 			Toggle.Name = "Toggle"
 			Toggle.Parent = ItemHolder
 			Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
-			Toggle.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+			Toggle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 			Toggle.Position = UDim2.new(-0.436928689, 0, 0.696994126, 0)
 			Toggle.Size = UDim2.new(0, 491, 0, 29)
 			Toggle.AutoButtonColor = false
@@ -1537,7 +1537,7 @@ function DarkLib:Window()
 
 			Label.Name = "Label"
 			Label.Parent = ItemHolder
-			Label.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+			Label.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 			Label.Position = UDim2.new(0, 0, 0.174999997, 0)
 			Label.Size = UDim2.new(0, 491, 0, 29)
 			Label.AutoButtonColor = false
