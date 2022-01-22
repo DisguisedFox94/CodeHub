@@ -91,3 +91,6 @@ Farm:Label('Options')
 Farm:Dropdown('TP Method',{'Tween','Instant'},function(method)
     Settings.TPMethod = method
 end)
+Farm:Button('Force Stop'.function()
+   Settings.Auto = false 
+end)
