@@ -72,6 +72,9 @@ elseif game.PlaceId == 7993293100 then
 elseif game.PlaceId == 482742811 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DisguisedFox94/CodeHub/main/getcrushed.lua"))();
     Notify("Code Hub", "Loaded: GET CRUSHED", 5)
+elseif game.PlaceId == 185655149 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DisguisedFox94/CodeHub/main/wtb.lua"))();
+    Notify("Code Hub", "Loaded: GET CRUSHED", 5)
 else
     Notify("Code Hub", "Error: Unsupported game.", 5)
 end
