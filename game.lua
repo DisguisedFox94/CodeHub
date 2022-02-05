@@ -75,6 +75,9 @@ elseif game.PlaceId == 482742811 then
 elseif game.PlaceId == 185655149 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DisguisedFox94/CodeHub/main/wtb.lua"))();
     Notify("Code Hub", "Loaded: Welcome to Bloxburg", 5)
+elseif game.PlaceID == 5926001758 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DisguisedFox94/CodeHub/main/colorbrick.lua"))();
+    Notify("Code Hub", "Loaded: Color Brick", 5)
 else
     Notify("Code Hub", "Error: Unsupported game.", 5)
 end
